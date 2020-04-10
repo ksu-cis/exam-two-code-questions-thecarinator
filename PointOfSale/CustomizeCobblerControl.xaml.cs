@@ -17,7 +17,7 @@ namespace ExamTwoQuestions.PointOfSale
     /// <summary>
     /// Interaction logic for CustomizeCobblerControl.xaml
     /// </summary>
-    public partial class CustomizeCobblerControl : UserControl
+    public partial class CustomizeCobblerControl : UserControl 
     {
         public CustomizeCobblerControl()
         {

@@ -17,6 +17,7 @@ namespace ExamTwoCodeQuestions.Data
             get { return fruit; }
             set
             {
+                if (fruit == value) return;
                 fruit = value;
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs("Fruit"));
             }

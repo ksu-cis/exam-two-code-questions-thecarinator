@@ -107,6 +107,7 @@ namespace ExamTwoCodeQuestions.DataTests
         public void ChangingFruitToPeachShouldInvokePropertyChangedForFruit()
         {
             var cobbler = new Cobbler();
+            cobbler.Fruit = FruitFilling.Cherry;
             Assert.PropertyChanged(cobbler, "Fruit", () => { cobbler.Fruit = FruitFilling.Peach; });
 
         }
